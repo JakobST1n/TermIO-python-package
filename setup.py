@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='TermIO',
-    version='0.1.3',
+    version='0.1.4',
     scripts=[],
     author="jakobst1n",
     author_email="jakob.stendahl@outlook.com",
