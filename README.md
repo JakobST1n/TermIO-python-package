@@ -9,11 +9,19 @@ had good with bash.
 import TermIO
 ```
 
-## var `TermIO.rows`
-Rows in the terminal. Not updating as of now...
+## func `TermIO.TermSize.Rows(Update=True)`
+Returns rows in terminal as an int.
+```
+Update : BOOL, should you check the terminal size again, or just [True]
+                assume that it hasn't changed since last check.
+```
 
-## var `TermIO.columns`
-Number of columns in the terminal. Not updating either...
+## func `TermIO.TermSize.Columns(Update=True)`
+Returns Columns in terminal as an int.
+```
+Update : BOOL, should you check the terminal size again, or just [True]
+                assume that it hasn't changed since last check.
+```
 
 ## func `TermIO.Cursor.SetPos(col, row, flush=True)`
 Set cursor to a spesific column and row in the terminal.
