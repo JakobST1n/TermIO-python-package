@@ -17,7 +17,7 @@ class TermSizeSkeleton:
 
     def Columns(self, Update=True):
         if Update: self.Update()
-        return self.RowsInt
+        return self.ColumnsInt
 
 
 TermSize = TermSizeSkeleton()
